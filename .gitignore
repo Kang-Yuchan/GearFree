@@ -105,5 +105,5 @@ dist
 
 # dotenv environment variables file
 .env
-
+yarn.lock
 generated
