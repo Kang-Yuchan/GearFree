@@ -6,9 +6,14 @@
 	"author": "Kang.Yuchan <ikimaku0517@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-node": "^0.0.1-security",
-		"graphql-yoga": "^1.18.3"
+		"@babel/core": "^7.8.3",
+		"@babel/node": "^7.8.3",
+		"@babel/preset-env": "^7.8.3",
+		"dotenv": "^8.2.0",
+		"graphql-tools": "^4.0.6",
+		"graphql-yoga": "^1.18.3",
+		"merge-graphql-schemas": "1.7.3",
+		"morgan": "^1.9.1"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.2"
