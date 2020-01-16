@@ -1,0 +1,19 @@
+{
+	"name": "GearFree",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Kang-Yuchan/GearFree.git",
+	"author": "Kang.Yuchan <ikimaku0517@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-node": "^0.0.1-security",
+		"graphql-yoga": "^1.18.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	},
+	"scripts": {
+		"dev": "nodemon --exec babel-node src/server.js"
+	}
+}
