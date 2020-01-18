@@ -107,3 +107,4 @@ dist
 .env
 yarn.lock
 generated
+prisma.yml
