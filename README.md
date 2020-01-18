@@ -1,8 +1,10 @@
 # GearFree
 e-Sports x Freemarket Service
 
-- [ ] Users
-- [ ] Post
+- [ ] User
+- [ ] Item
 - [ ] Like
 - [ ] Comment
 - [ ] File
+- [ ] Room
+- [ ] Message
