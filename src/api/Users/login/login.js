@@ -1,5 +1,6 @@
 import { prisma } from '../../../../generated/prisma-client';
 import bcrypt from 'bcrypt';
+import { generateToken } from '../../../util';
 
 export default {
 	Mutation: {
@@ -8,7 +9,7 @@ export default {
 			const user = await prisma.user({ email });
 			const isMatch = bcrypt.compareSync(password, user.password);
 			if (isMatch) {
-				return 'TOKEN';
+				return generateToken(user.id);
 			} else if (!isMatch) {
 				throw new Error('パスワードが間違っています。');
 			} else if (!user) {
