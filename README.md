@@ -13,13 +13,13 @@ e-Sports x Freemarket Service
 
 ## User Stories
 
+- [ ] Login
 - [ ] Like / Unlike a Item
 - [ ] Comment on a Item
 - [ ] Search by Itme Name
 - [ ] Buying / Selling Item
 - [ ] Edit my Profile
 - [ ] Create Account
-- [ ] Login
 - [ ] Upload a Item
 - [ ] Edit a Item
 - [ ] See the Main
