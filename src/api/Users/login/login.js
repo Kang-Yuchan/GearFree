@@ -15,7 +15,6 @@ export default {
 			} else if (!user) {
 				throw new Error('存在しないユーザーです。');
 			}
-			return;
 		}
 	}
 };
