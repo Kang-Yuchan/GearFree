@@ -15,9 +15,9 @@ e-Sports x Freemarket Service
 
 - [x] Create Account
 - [x] Login
+- [x] Like / Unlike a Item
 - [ ] Social Login
 - [ ] Reset Password
-- [ ] Like / Unlike a Item
 - [ ] Comment on a Item
 - [ ] Search by Itme Name
 - [ ] Buying / Selling Item
