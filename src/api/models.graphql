@@ -13,6 +13,7 @@ type User {
 
 type Item {
 	id: ID!
+	itemname: String!
 	user: User!
 	files: [File!]!
 	price: Int!
