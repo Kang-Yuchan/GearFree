@@ -2,6 +2,7 @@ type User {
 	id: ID!
 	username: String!
 	email: String!
+	password: String!
 	items: [Item!]!
 	likes: [Like!]!
 	comments: [Comment!]!
