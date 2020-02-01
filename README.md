@@ -20,7 +20,9 @@ e-Sports x Freemarket Service
 - [x] Search by Itme Name
 - [x] Buying / Selling Item
 - [x] Trading Cancel
-- [ ] Edit my Profile
+- [x] Edit my Profile
+- [x] See User Profile
+- [ ] See My Profile
 - [ ] Social Login
 - [ ] Reset Password
 - [ ] Upload a Item
