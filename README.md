@@ -22,7 +22,7 @@ e-Sports x Freemarket Service
 - [x] Trading Cancel
 - [x] Edit my Profile
 - [x] See User Profile
-- [ ] See My Profile
+- [x] See My Profile
 - [ ] Social Login
 - [ ] Reset Password
 - [ ] Upload a Item

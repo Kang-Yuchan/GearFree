@@ -1,0 +1,8 @@
+type ProfileResponse {
+	user: User!
+	items: [Item!]!
+}
+
+type Query {
+	seeMe: ProfileResponse!
+}
