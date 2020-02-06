@@ -23,8 +23,10 @@ e-Sports x Freemarket Service
 - [x] Edit my Profile
 - [x] See User Profile
 - [x] See My Profile
-- [ ] Social Login
-- [ ] Reset Password
-- [ ] Upload a Item
+- [x] Upload a Item
 - [ ] Edit a Item
 - [ ] See the Main
+- [ ] See the Item
+- [ ] See the Chat Room
+- [ ] Send private Message
+- [ ] Receive Message (Real Time)
