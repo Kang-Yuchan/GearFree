@@ -24,7 +24,7 @@ e-Sports x Freemarket Service
 - [x] See User Profile
 - [x] See My Profile
 - [x] Upload a Item
-- [ ] Edit a Item
+- [x] Edit a Item
 - [ ] See the Main
 - [ ] See the Item
 - [ ] See the Chat Room
