@@ -3,9 +3,9 @@ type User {
   username: String! @unique
   email: String! @unique
   password: String!
-  items: [Item!]!
-  likes: [Like!]!
-  comments: [Comment!]!
+  items: [Item!]! @relation(name: "ItemsOfUser", onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikesOfUser", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete: CASCADE)
   buyer: [User!]! @relation(name: "TradeRelation")
   seller: [User!]! @relation(name: "TradeRelation")
   rooms: [Room!]!
@@ -15,32 +15,32 @@ type User {
 type Item {
   id: ID! @id
   itemname: String!
-  user: User!
-  files: [File!]!
+  user: User @relation(name: "ItemsOfUser")
+  files: [File!]! @relation(name: "FilesOfItem", onDelete: CASCADE)
   price: Int!
   kind: String!
-  likes: [Like!]!
-  comments: [Comment!]!
+  likes: [Like!]! @relation(name: "LikesOfItem", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentOfItem", onDelete: CASCADE)
   usingPro: String
 }
 
 type Like {
   id: ID! @id
-  user: User!
-  item: Item!
+  user: User  @relation(name: "LikesOfUser")
+  item: Item @relation(name: "LikesOfItem")
 }
 
 type Comment {
   id: ID! @id
   text: String!
-  user: User!
-  item: Item!
+  user: User @relation(name: "CommentsOfUser")
+  item: Item @relation(name: "CommentOfItem")
 }
 
 type File {
   id: ID! @id
   url: String!
-  item: Item!
+  item: Item @relation(name: "FilesOfItem")
 }
 
 type Room {

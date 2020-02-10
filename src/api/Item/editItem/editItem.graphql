@@ -1,3 +1,8 @@
+enum ACTIONS {
+	EDIT
+	DELETE
+}
+
 type Mutation {
-	editItem(id: String!, itemname: String, price: Int, kind: String): Item!
+	editItem(id: String!, itemname: String, price: Int, kind: String, action: ACTIONS!): Item
 }
